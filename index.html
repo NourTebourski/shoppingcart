@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>shopping card</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float: right">
+          <a class="active" href="#about">About</a>
+        </li>
+      </ul>
+    </header>
+    <!-- Main -->
+    <main>
+      <section class="list-items">
+        <div class="total_price">
+          <h1>Total : <span id="total">0</span> DT</h1>
+        </div>
+
+        <!---------- item 1  -------------->
+        <div class="product_item" id="item_1">
+          <img src="Res/casque.jpg" alt="tnf" />
+          <h2><span id="item_1_price">109</span> DT</h2>
+          <button type="button" class="btn btn-primary minus" name="item_1">
+            -
+          </button>
+          <h2 id="item_1_qty">0</h2>
+          <button type="button" class="btn btn-primary plus" name="item_1">
+            +
+          </button>
+          <button type="button" class="btn btn-danger delete" name="item_1">
+            delete
+          </button>
+          <i
+            class="fas fa-heart"
+            style="font-size: 34px"
+            name="item_1"
+            id="item_1_like"
+          ></i>
+        </div>
+
+        <!---------- item 2  -------------->
+        <div class="product_item" id="item_2">
+          <img src="Res/souris.jpg" id="imm" alt="tnf" />
+          <h2><span id="item_2_price">69</span> DT</h2>
+          <button type="button" class="btn btn-primary minus" name="item_2">
+            -
+          </button>
+          <h2 id="item_2_qty">0</h2>
+          <button type="button" class="btn btn-primary plus" name="item_2">
+            +
+          </button>
+          <button type="button" class="btn btn-danger delete" name="item_2">
+            delete
+          </button>
+
+          <i
+            class="fas fa-heart"
+            style="font-size: 34px"
+            name="item_2"
+            id="item_2_like"
+          ></i>
+        </div>
+        <!---------- item 3  -------------->
+        <div class="product_item" id="item_3">
+          <img src="Res/tapis.jpg" alt="tnf" />
+          <h2><span id="item_3_price">99</span> DT</h2>
+          <button type="button" class="btn btn-primary minus" name="item_3">
+            -
+          </button>
+          <h2 id="item_3_qty">0</h2>
+          <button type="button" class="btn btn-primary plus" name="item_3">
+            +
+          </button>
+          <button type="button" class="btn btn-danger delete" name="item_3">
+            delete
+          </button>
+          <i
+            class="fas fa-heart"
+            style="font-size: 34px"
+            name="item_3"
+            id="item_3_like"
+          >
+          </i>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="Js/main.js"></script>
+  </body>
+</html>
